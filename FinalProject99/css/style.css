@@ -1,0 +1,72 @@
+/* Your custom styles go here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.blog-preview {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.blog-preview h3 {
+    color: #007bff;
+}
+
+.btn-primary,
+.btn-danger,
+.btn-success {
+    margin-right: 10px;
+}
+
+.comment {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-add-new-blog {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-add-new-blog:hover {
+    background-color: #218838;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
